@@ -40,5 +40,5 @@ if text:
     byte_im = buf.getvalue()
 
     st.download_button(
-        label="download", data=byte_im, file_name="QR_code.jpeg", mime="image/jpeg"
+        label="Download QR Code", data=byte_im, file_name="QR_code.jpeg", mime="image/jpeg"
     )
